@@ -5,5 +5,5 @@ sources:
     database: DEMO                 # your Snowflake database
     schema: DEMO_SCHEMA            # schema where raw tables live
     tables:
-      - name: weather
-      - name: bike      # table name in Snowflake
+      - name: WEATHER
+      - name: BIKE      # table name in Snowflake
