@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: DEMO          # logical name you’ll use in SQL
+    database: DEMO                 # your Snowflake database
+    schema: DEMO_SCHEMA            # schema where raw tables live
+    tables:
+      - name: weather
+      - name: bike      # table name in Snowflake
